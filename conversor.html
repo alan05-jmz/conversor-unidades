@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversor de Unidades</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>Conversor de Unidades</h1>
+
+        <input type="number" id="valor" placeholder="Ingresa un valor">
+
+        <select id="conversion">
+            <option value="c-f">Celsius → Fahrenheit</option>
+            <option value="f-c">Fahrenheit → Celsius</option>
+            <option value="c-k">Celsius → Kelvin</option>
+            <option value="k-c">Kelvin → Celsius</option>
+            <option value="m-km">Metros → Kilómetros</option>
+            <option value="km-m">Kilómetros → Metros</option>
+            <option value="g-kg">Gramos → Kilogramos</option>
+            <option value="kg-g">Kilogramos → Gramos</option>
+        </select>
+
+        <button onclick="convertir()">Convertir</button>
+
+        <h2 id="resultado">Resultado: </h2>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html> 
